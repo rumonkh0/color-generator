@@ -1,0 +1,28 @@
+body{height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+button{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-image: linear-gradient(to right, red,orange,yellow,white,indigo,violet);
+    border: none;
+    border-radius: 2rem;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    background: rgba(0, 0, 0, .5)
+
+}
