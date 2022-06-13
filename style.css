@@ -14,7 +14,7 @@ button{
     background-image: linear-gradient(to right, red,orange,yellow,white,indigo,violet);
     border: none;
     border-radius: 2rem;
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
